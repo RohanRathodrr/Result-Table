@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #table{
+        width: 600px;
+        height: 200px;
+        border-color: black;
+        border-collapse: collapse;
+    }
+    #blue{
+        background-color: blue;
+        color: white;
+        height: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .red{
+        background-color:red;
+        text-align: center;
+    }
+    .alisblue{
+        background-color: aliceblue;
+        text-align: center;
+    }
+    .aqua{
+        background-color: aquamarine;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <table id="table" border="1px solid ">
+   <tr id="blue"> 
+    <td colspan="2"><h1><b>Subject</b></h1></td>
+    <td ><h1><b>John Doe</b></h1></td>
+    <td><h1><b>Mirium Luther</b></h1></td>
+  </tr>
+   <tr>
+    <td rowspan="2" class="alisblue"><b>Biology</b></td>
+    <td class="red">Practical</td>
+    <td class="aqua">A</td>
+    <td class="red">A</td>
+</tr>
+   <tr>
+    <td class="aqua">Theory</td>
+    <td class="red">A+</td>
+    <td class="aqua">A</td>
+   </tr>
+   <tr>
+    <td rowspan="2" class="red"><b>Chemistry</b></td>
+    <td class="alisblue">Practical</td>
+    <td class="aqua">B</td>
+    <td class="alisblue">C</td>
+   </tr>
+   <tr>
+    <td class="aqua">Theory</td>
+    <td class="alisblue">A</td>
+    <td class="aqua">C+</td>
+   </tr>
+   <tr>
+    <td rowspan="2" class="aqua"><b>Physics</b></td>
+    <td class="red">Practical</td>
+    <td class="aqua">A</td>
+    <td class="aqua" >A</td>
+    
+   </tr>
+   <tr>
+    <td class="aqua">Theory</td>
+    <td class="red">A-</td>
+    <td class="aqua">A-</td>
+   </tr>
+    
+    </table>
+</body>
+</html>
